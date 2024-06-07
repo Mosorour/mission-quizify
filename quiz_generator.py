@@ -134,9 +134,9 @@ class QuizGenerator:
 # Test the Object
 if __name__ == "__main__":
     
-    from tasks.task_3.pdf_processing import DocumentProcessor
-    from tasks.task_4.embedding_client import EmbeddingClient
-    from tasks.task_5.chroma_collection_creator import ChromaCollectionCreator
+    from pdf_processing import DocumentProcessor
+    from embedding_client import EmbeddingClient
+    from chroma_collection_creator import ChromaCollectionCreator
     
     
     embed_config = {
