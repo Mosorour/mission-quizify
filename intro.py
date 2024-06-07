@@ -2,9 +2,9 @@ import sys
 import os
 import streamlit as st
 sys.path.append(os.path.abspath('../../'))
-from tasks.task_3.task_3 import DocumentProcessor
-from tasks.task_4.task_4 import EmbeddingClient
-from tasks.task_5.task_5 import ChromaCollectionCreator
+from pdf_processing import DocumentProcessor
+from embedding_client import EmbeddingClient
+from chroma_collection_creator import ChromaCollectionCreator
 
 if __name__ == "__main__":
     # Configuration for EmbeddingClient
