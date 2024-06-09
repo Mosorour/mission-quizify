@@ -1,4 +1,11 @@
-A webpage that recieves pdf documents. The user enters a specific input, then it results a bunch of questions about the input entered.
+A webpage that recieves pdf documents by uploading them. The user enters a specific topic as an input, then it results a number of questions (That the user decides) about the topic that the user specified using the provided documents.
+
+Development included:
+- Streamlit
+- Python
+- Chroma Collection
+- Vertex AI
+- Google Cloud
 
 Loom Video: https://www.loom.com/share/58f570e3903b41209ec51ec394e524f0?sid=97ea0d2f-fa88-4ad1-aae0-9be1c17bdd53
 
